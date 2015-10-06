@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set_cwd() {
-  cd $WERCKER_ROOT
+  cd "$WERCKER_ROOT"
 }
 
 check-params() {
@@ -17,7 +17,7 @@ main() {
 
   info 'npm run $WERCKER_NPM_RUN_SCRIPT'
 
-  npm run $WERCKER_NPM_RUN_SCRIPT
+  npm run "$WERCKER_NPM_RUN_SCRIPT"
 
   success 'Step completed'
 }
