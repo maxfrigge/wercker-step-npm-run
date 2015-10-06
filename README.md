@@ -1,16 +1,13 @@
 # Wercker step - npm run
 Run scripts from `package.json` with `npm run`.
 
-[![wercker status](https://app.wercker.com/status/49d7c3919df2d65ed4679bcc86eb3477/m "wercker status")](https://app.wercker.com/project/bykey/49d7c3919df2d65ed4679bcc86eb3477)
+[![wercker status](https://app.wercker.com/status/3a9f128650a4d81ab429bb91188d22f9/m "wercker status")](https://app.wercker.com/project/bykey/3a9f128650a4d81ab429bb91188d22f9)
 
 # Options
-
 * `script` (required) Name of the script definition in package.json.
 
 # Example
-
 Define scripts in `package.json`.
-
 ```
 {
   "name": "awesome-node-app",
@@ -21,10 +18,9 @@ Define scripts in `package.json`.
 ```
 
 Add `npm run` to your build steps.
-
 ```
 build:
     steps:
-        - maxon:npm-run
+        - maxon/npm-run:
             script: build
 ```
