@@ -1,0 +1,10 @@
+name: npm-run
+version: 0.1.0
+description: Run scripts from package.json with npm run.
+keywords:
+  - npm
+  - node
+properties:
+  script:
+    type: string
+    required: true
