@@ -15,7 +15,7 @@ main() {
 
   set_cwd
 
-  info 'npm run $WERCKER_NPM_RUN_SCRIPT'
+  info "npm run $WERCKER_NPM_RUN_SCRIPT"
 
   npm run "$WERCKER_NPM_RUN_SCRIPT"
 
