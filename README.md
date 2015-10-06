@@ -1,4 +1,4 @@
-# Wercker step - npm run
+# npm run
 Run scripts from `package.json` with `npm run`.
 
 [![wercker status](https://app.wercker.com/status/3a9f128650a4d81ab429bb91188d22f9/m "wercker status")](https://app.wercker.com/project/bykey/3a9f128650a4d81ab429bb91188d22f9)
